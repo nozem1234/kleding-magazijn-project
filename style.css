@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: left;
+}
+h1 {
+    font-size: 24px;
+}
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.filter-buttons button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.kleding-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.kleding-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.kleding-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.kleding-item p {
+    margin: 5px 0;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.btn-container button {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn-plus { background-color: green; color: white; }
+.btn-min { background-color: red; color: white; }
